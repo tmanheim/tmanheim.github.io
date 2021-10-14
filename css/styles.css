@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+
+@media only screen and (min-width: 1025px) {
+    body {
+        font-family:  'Noto Sans', sans-serif;
+        font-size: 90%;
+        color: rgb(255, 255, 255);
+        background-image: url("https://live.staticflickr.com/65535/51564873847_1fa1d2ca23_o.jpg");
+        /*background-color: #000000;*/
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;}
+    h1 {
+        font-family:  'Noto Serif', serif;
+        font-size: 300%;
+        color: rgb(255, 0, 0);
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        background-color: #000000;}
+    p {
+        padding: 5%;
+        font-size: 125%}
+    .clear {
+        clear: left;}
+    .column1width {
+        float: left;
+        width: 30%;
+        margin: 3%;}
+    .column2width {
+        float: left;
+        width: 55%;
+        margin: 3%;}
+    video {
+        float: left;
+        width: 100%;
+        margin: 10px;}
+
+    /*This code determines which image shows when hovering*/
+    a img:last-child {
+        display: none;}
+    a:hover img:last-child {
+        display: block;}
+    a:hover img:first-child {
+        display: none;}
+
+    /*This code determines which video shows when hovering*/
+    a video:last-child {
+        display: none;}
+    a:hover video:last-child {
+        display: block;}
+    a:hover video:first-child {
+        display: none;}
+
+    /*This code determines what color the link is*/
+    a:link {
+        color: rgb(71, 4, 255);;
+        text-decoration: underline;}
+    a:visited {
+        color: rgb(250, 154, 154);}
+    a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;}
+    a:active {
+        color: darkcyan;}
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    body {
+        font-family:  'Noto Sans', sans-serif;
+        font-size: 90%;
+        color: rgb(255, 255, 255);
+        background-image: url("https://live.staticflickr.com/65535/51564873847_1fa1d2ca23_o.jpg");
+        /*background-color: #000000;*/
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;}
+    h1 {
+        font-size: 200%;
+        color: rgb(255, 0, 0);
+        text-align: center;}
+    p {
+        font-size: 125%}
+    .clear {
+        clear: left;}
+    .column1width {
+        float: left;
+        width: 90%;
+        margin: 3%;}
+    .column2width {
+        float: left;
+        width: 90%;
+        margin: 3%;}
+    video {
+        float: left;
+        width: 100%;
+        margin: 10px;}
+    
+    /*This code determines which image shows when hovering*/
+    a img:last-child {
+        display: none;}
+    a:hover img:last-child {
+        display: block;}
+    a:hover img:first-child {
+        display: none;}
+    
+    /*This code determines which video shows when hovering*/
+    a video:last-child {
+        display: none;}
+    a:hover video:last-child {
+        display: block;}
+    a:hover video:first-child {
+        display: none;}
+    
+    /*This code determines what color the link is*/
+    a:link {
+        color: rgb(71, 4, 255);;
+        text-decoration: underline;}
+    a:visited {
+        color: rgb(250, 154, 154);}
+    a:hover {
+        color: rgb(255, 0, 0);
+        text-decoration: underline;}
+    a:active {
+        color: darkcyan;}
+}
